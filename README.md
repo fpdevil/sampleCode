@@ -23,15 +23,19 @@ $ make all
 [100%] Linking CXX executable main
 [100%] Built target main
 
-$ ./main
+/main
 Testing OpenCV
-OpenCV version: 4.5.0
+OpenCV version: 4.9.0
 Major version: 4
-Minor version: 5
+Minor version: 9
 Subminor version: 0
+Inverting a PNG file...
 ```
+
+Once run, the input sample image is inverted. Here is the result of the same before and after the inversion.
+![Image Alt text](/images/results.png "Outout of Inversion"))
 
 # Cleanup
 ```bash
-rm -vrf Makefile CMakeFiles Inverted_Fox.png cmake_install.cmake CMakeCache.txt
+rm -vrf Makefile CMakeFiles main cmake_install.cmake CMakeCache.txt
 ```
