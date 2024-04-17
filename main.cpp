@@ -15,8 +15,8 @@ int main() {
     cout << "Subminor version: " << CV_SUBMINOR_VERSION << endl;
 
     cout << "Inverting a PNG file..." << endl;
-    Mat img = imread("./Quick_brown_fox.png");
+    Mat img = imread("./images/Quick_brown_fox.png");
     bitwise_not(img, img);
-    imwrite("./Inverted_Fox.png", img);
+    imwrite("./images/Inverted_Fox.png", img);
     return 0;
 }
